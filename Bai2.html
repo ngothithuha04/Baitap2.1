@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="
+    "
+    />
+    <link rel="stylesheet" href="Bai2.css" />
+    <title>Windows-like Calendar</title>
+  </head>
+  <body>
+    <!-- phần chứa toàn bộ -->
+    <div class="container">
+      <div class="header">
+        <h1 class="hour">
+          <span class="hour_time"></span> <span class="ampm">PM</span>
+        </h1>
+        <h3 class="date">ngày 23,2024</h3>
+      </div>
+      <div class="body">
+        <div class="div_table">
+          <div class="date-btn">
+            <span class="month_year">8/2003</span>
+            <span class="btn">
+              <button class="btn2"><i class="bx bx-chevron-up"></i></button>
+               <button class="btn1"><i class="bx bx-chevron-down"></i></button>
+            </span>
+          </div>
+          <table id="table">
+            <thead>
+              <tr>
+                <th>Su</th>
+                <th>Mo</th>
+                <th>Tu</th>
+                <th>We</th>
+                <th>Th</th>
+                <th>Fr</th>
+                <th>Sa</th>
+              </tr>
+            </thead>
+            <tbody class="tbody"></tbody>
+          </table>
+        </div>
+        <div class="div_table1">
+          <div class="date-btn">
+            <span class="month_year1">2024</span><!--năm của hiện tai-->
+            <span class="btn1">
+              <button class="btn22"><i class="bx bx-chevron-up"></i></button>
+              <button class="btn11"><i class="bx bx-chevron-down"></i></button>
+            </span>
+          </div>
+          <table id="table">
+            <tbody class="tbody1"></tbody>
+          </table>
+        </div>
+
+        <div class="div_table2">
+          <div class="date-btn">
+            <span class="month_year2">2024</span>
+            <span class="btn1">
+             
+              <button class="btn23"><i class="bx bx-chevron-up"></i></button>
+               <button class="btn12"><i class="bx bx-chevron-down"></i></button>
+            </span>
+          </div>
+          <table id="table">
+            <tbody class="tbody2"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="Bai2.js"></script>
+  </body>
+</html>
